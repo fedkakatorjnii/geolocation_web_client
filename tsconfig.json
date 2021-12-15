@@ -1,0 +1,54 @@
+{
+  "extends": "./tsconfig.common.json",
+  "compilerOptions": {
+    "outDir": "./lib",
+    "rootDir": "./src",
+    "baseUrl": "./src"
+  }
+  // "compilerOptions": {
+  //   "allowUnreachableCode": false,
+  //   // "strictNullChecks": true,
+  //   // "exactOptionalPropertyTypes": true,
+  //   "noImplicitOverride": true,
+  //   "noImplicitReturns": true,
+  //   // "noPropertyAccessFromIndexSignature": true
+  //   // "noPropertyAccessFromIndexSignature": false,
+  //   "noUncheckedIndexedAccess": false,
+  //   "noUnusedParameters": true,
+  //   //
+  //   // "strictBindCallApply": true,
+  //   // "strictFunctionTypes": true,
+  //   // "strictNullChecks" : true,
+  //   // "strictPropertyInitialization": true,
+  //   //
+  //   "strict": true,
+  //   //
+  //   "useUnknownInCatchVariables": true,
+  //   "baseUrl": "./src",
+  //   "rootDir": "./src",
+  //   "outDir": "./lib",
+  //   "experimentalDecorators": true
+  // },
+  // "target": "es6",
+  // "lib": ["es2020", "dom"],
+  // // "moduleResolution": "node",
+  // // "resolveJsonModule": true,
+  // "removeComments": true,
+  // "sourceMap": true,
+  // "esModuleInterop": true,
+  // // "extendedDiagnostics": true,
+  // // "generateCpuProfile": true,
+  // //
+  // "listEmittedFiles": true,
+  // "listFiles": true,
+  // "traceResolutions": true,
+  // //
+  // // "include": ["src/**/*"],
+  // "include": ["src/*"],
+  // "exclude": ["node_modules"],
+  // "typeRoots": [
+  //   "../node_modules/@types",
+  //   "./node_modules/@types",
+  //   "./src/typings"
+  // ]
+}

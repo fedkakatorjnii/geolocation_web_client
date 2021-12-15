@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "declaration": true,
+    "inlineSourceMap": true,
+    // "module": "ES6",
+    "module": "es2020",
+    "jsx": "react",
+    "alwaysStrict": true,
+    "strictNullChecks": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "noUnusedLocals": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    // "target": "ES2017",
+    "target": "es6",
+    "importHelpers": true,
+    "downlevelIteration": true,
+    // "lib": ["es2017", "dom"],
+    "lib": ["es2020", "dom"],
+    "strictPropertyInitialization": true
+  }
+}
